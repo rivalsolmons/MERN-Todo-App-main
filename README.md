@@ -13,7 +13,7 @@ Deploy the application to a hosting platform of your choice (e.g., Heroku, AWS, 
 
 Document the technologies used, any important architectural decisions, and provide instructions on how to set up and test the application.
 
-### Used MongoDb as the database , React for frontend , NodeJs Engine as Backend for the web application,
+ Used MongoDb as the database , React for frontend , NodeJs Engine as Backend for the web application,
 #     - The /server so called backend Utilizes REST Guidelines to make reequest , Or while connection with the client . 
 #     - Tne breakup for the server is provided below 
           - The models path contains a model for todo list used by ODM to check weather it fulful the guidelines or not 
@@ -40,6 +40,6 @@ Document the technologies used, any important architectural decisions, and provi
              - npmm init 
              - npm i 
              - npm run / npm run build , for backend and Frontend
-## Please define DB_CONNECT , PORT in .env file inside /server Directory
+# Please define DB_CONNECT , PORT in .env file inside /server Directory
               - Assign your Mongo URI in DB_CONNECT inside .env before Hand.
 # Note : The frontend will be running on PORT 3000 , and supposes that BACKEND IS Available at PORT 5550 . So it is suggested to Ensure the needful.
