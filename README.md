@@ -11,4 +11,23 @@ Include at least two RESTful APIs that perform basic CRUD operations on a specif
 
 Deploy the application to a hosting platform of your choice (e.g., Heroku, AWS, or Azure) or provide instructions on how to run it locally.
 
-Document the technologies used, any important architectural decisions, and provide instructions on how to set up and test the application
+Document the technologies used, any important architectural decisions, and provide instructions on how to set up and test the application.
+
+## Used MongoDb as the database , React for frontend , NodeJs Engine as Backend for the web application,
+##     - The /server so called backend Utilizes REST Guidelines to make reequest , Or while connection with the client . 
+##     - Tne breakup for the server is provided below 
+###           - The models path contains a model for todo list used by ODM to check weather it fulful the guidelines or not 
+###           -  /model for todo list used by ODM to check weather it fulful the guidelines from the Schema  or not 
+###           -  /routes for todo list contains all the methods for Our Api , which is in our case " GET POST PUT DELETE which do following 
+###                      Operations Desc. display All ,Create New , Update Existing , Delete Entry  " 
+###           -  Other things are normal , like index.js is Our Starting Point
+
+
+# It is Suggested to make request in required format , as defined. 
+
+
+
+##     - The /client frontend is Made via preddefined React Template (Create React app)
+###           - The frontend Contains only few things as shown below 
+###                -  /src directory with consist , App.js as starting point for our app
+###                -  /public directory consists all assets like icon and images      
